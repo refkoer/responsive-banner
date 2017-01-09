@@ -533,7 +533,7 @@ ol > li::before {
 .btn:hover {
   background-color: #000;
   border-color: #000;
-  color: #fff;
+  color: #efefef;
 }
 
 .btn-light, .btn--light {
@@ -554,17 +554,17 @@ ol > li::before {
 .btn-ghost,
 .btn--ghost {
   background-color: transparent;
-  border-color: #333;
-  color: #000;
+  border-color: #fff;
+  color: #fff;
 }
 
 .btn-ghost:focus,
 .btn-ghost:hover,
 .btn--ghost:focus,
 .btn--ghost:hover {
-  background-color: #e2e2e2;
-  border-color: #000;
-  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  color: #efefef;
 }
 
 /* stylelint-disable no-descending-specificity */

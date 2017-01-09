@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Georgia;
+  background-color: #495562;
 }
 
 *, *::before, *::after {
@@ -20,13 +21,21 @@ html {
 
 body {
   margin: 0;
-  background-image: url("../images/earth-horizon.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
   color: #fff;
+  background-color:
 }
 
-li, a {
-  list-style: none;
+a {
+  color: #fff;
   list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #97a49b;
+}
+
+li:hover {
+  color: #97a49b;
 }
