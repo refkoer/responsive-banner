@@ -21,7 +21,6 @@ html {
 body {
   margin: 0;
   color: #fff;
-  background-image: linear-gradient(to bottom, transparent, rgba(28, 14, 0, 0), rgba(73, 85, 98, 0));
 }
 
 a {
@@ -34,4 +33,41 @@ a:hover {
 
 li:hover {
   color: #97a49b;
+}
+
+.img-flex {
+  max-height: 500px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    background-image: linear-gradient(to bottom, transparent, rgba(28, 14, 0, 0), rgba(73, 85, 98, 0));
+  }
+  .max-length {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .max-length {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36em;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+
+  .max-length {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25em;
+    width: 100%;
+  }
 }
