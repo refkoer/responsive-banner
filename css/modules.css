@@ -537,8 +537,8 @@ ol > li::before {
 }
 
 .btn-light, .btn--light {
-  background-color: #e2e2e2;
-  border-color: #e2e2e2;
+  background-color: #efefef;
+  border-color: #efefef;
   color: #000;
 }
 
