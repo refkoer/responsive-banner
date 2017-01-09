@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: Georgia;
 }
 
 *, *::before, *::after {
@@ -18,7 +19,14 @@ html {
 
 
 body {
+  margin: 0;
   background-image: url("../images/earth-horizon.jpg");
   background-repeat: no-repeat;
   background-size: auto;
+  color: #fff;
+}
+
+li, a {
+  list-style: none;
+  list-style-type: none;
 }
